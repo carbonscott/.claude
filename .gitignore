@@ -1,0 +1,16 @@
+.claude.json
+.claude.json.backup
+.claude.json.corrupted.*
+.credentials.json
+history.jsonl
+stats-cache.json
+debug/
+file-history/
+plans/
+plugins/
+projects/
+session-env/
+shell-snapshots/
+statsig/
+telemetry/
+todos/
