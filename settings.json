@@ -15,6 +15,14 @@
     ],
     "deny": []
   },
+  "statusLine": {
+    "type": "command",
+    "command": "input=$(cat); cwd=$(echo \"$input\" | jq -r '.workspace.current_dir'); username=$(whoami); hostname=$(hostname -s); conda_env=\"${CONDA_DEFAULT_ENV:-}\"; status=\"${username}@${hostname} in [${cwd}]\"; if [ -n \"$conda_env\" ]; then status=\"${status} (conda:${conda_env})\"; fi; echo \"$status\""
+  },
+  "enabledPlugins": {
+    "example-skills@anthropic-agent-skills": true
+  },
+  "autoUpdatesChannel": "latest",
   "feedbackSurveyState": {
     "lastShownTime": 1754086779174
   }
