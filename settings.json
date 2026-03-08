@@ -17,7 +17,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "bash /Users/scott/.claude/statusline-command.sh"
+    "command": "bash $CLAUDE_CONFIG_DIR/statusline-command.sh"
   },
   "enabledPlugins": {
     "example-skills@anthropic-agent-skills": true
