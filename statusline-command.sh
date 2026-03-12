@@ -7,7 +7,7 @@ mkdir -p "$STATE_DIR"
 
 input=$(cat)
 
-uv run python3 -c '
+uv run --python 3.12 python -c '
 import sys, json, os
 
 state_dir = sys.argv[1]
