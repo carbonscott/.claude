@@ -33,6 +33,17 @@ uv run ~/codes/cc-bridge/bridge-session start -- ssh <host> 'uv run ~/bridge-ser
 
 For full flags and examples, see [references/commands.md](references/commands.md).
 
+## Editing Remote Files (Recommended Pattern)
+
+For any non-trivial edit, use a local temp file as a staging area:
+
+1. **Pull** — `bridge read <path>` to get the current content
+2. **Stage locally** — Write it to `/tmp/<filename>` using the Write tool
+3. **Edit locally** — Apply changes with the Edit tool (normal incremental diffs)
+4. **Push back** — `bridge write <path> --file /tmp/<filename>`
+
+This avoids full rewrites in your head and gives you the full Edit tool experience. Only use `bridge write` with generated content for brand-new files.
+
 ## When to Use Bridge vs Native Tools
 
 - **Remote files** → always use bridge commands

@@ -34,6 +34,15 @@ echo "content" | bridge write <path>        # from stdin
 bridge bash "cat local.py" | bridge write <path>  # pipe through
 ```
 
+**Recommended edit workflow** — use a local temp file to stage edits incrementally, then push once:
+
+```
+1. bridge read <remote_path>               # read remote content
+2. Write tool → /tmp/<filename>            # save to local temp file
+3. Edit tool → /tmp/<filename>             # apply targeted diffs locally
+4. bridge write <remote_path> --file /tmp/<filename>  # push back
+```
+
 ---
 
 ## bash
