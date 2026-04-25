@@ -3,6 +3,6 @@ description: "Assess and identify gaps. Use when you want to find what's missing
 argument-hint: <topic, file, or area to analyze>
 ---
 
-Before proceeding, do you have everything you need?  Could you identify any gaps?
+State where we are and where we're going, then list the information gaps between them. Scope is information only — if you spot logic gaps, flag them separately as a sign the goal may need to be broken down further.
 
 $ARGUMENTS
