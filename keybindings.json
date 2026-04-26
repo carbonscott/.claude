@@ -93,13 +93,6 @@
       }
     },
     {
-      "context": "Task",
-      "bindings": {
-        "ctrl+b": null,
-        "ctrl+shift+b": "task:background"
-      }
-    },
-    {
       "context": "ThemePicker",
       "bindings": {
         "ctrl+t": "theme:toggleSyntaxHighlighting"
