@@ -1,5 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "ANTHROPIC_CUSTOM_MODEL_OPTION": "claude-opus-4-5-20251101",
+    "ANTHROPIC_CUSTOM_MODEL_OPTION_NAME": "Opus 4.5",
+    "ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION": "Claude Opus 4.5 (2025-11-01 snapshot)"
+  },
   "permissions": {
     "allow": [
       "Read",
@@ -13,15 +18,29 @@
       "NotebookRead",
       "NotebookEdit"
     ],
-    "deny": []
+    "deny": [],
+    "defaultMode": "auto"
   },
   "statusLine": {
     "type": "command",
     "command": "bash $CLAUDE_CONFIG_DIR/statusline-command.sh"
   },
   "enabledPlugins": {
-    "example-skills@anthropic-agent-skills": true
+    "example-skills@anthropic-agent-skills": true,
+    "hookify@claude-plugins-official": true
   },
+  "effortLevel": "xhigh",
+  "showClearContextOnPlanAccept": true,
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "showThinkingSummaries": true,
+  "theme": "light-daltonized",
+  "verbose": true,
+  "agentPushNotifEnabled": false,
+  "skipAutoPermissionPrompt": true,
+  "voiceEnabled": true,
   "feedbackSurveyState": {
     "lastShownTime": 1754086779174
   }
