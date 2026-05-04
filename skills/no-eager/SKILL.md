@@ -1,5 +1,5 @@
 ---
-description: No-action mode — respond in conversation only, never take action regardless of how the question is phrased
+description: No-eager mode — respond in conversation only, never take action regardless of how the question is phrased
 argument-hint: <prompt>
 ---
 
