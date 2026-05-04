@@ -9,7 +9,7 @@
 - **review-pr**
 - **taskify**
 - **goal-to-metrics**
-- **gaps** (not quite useful)
+- **gaps** (maybe replaced by /no-eager + "any gaps")
 - **be-concise**
 - **gh-skills**
 - **rclone-skills**
@@ -50,7 +50,7 @@ Tools to make sure AI agent is aligned with me.
 Tools to manage AI agent's eagerness (or desire to help me asap).
 
 - **no-eager**
-- **research**
+- **research** (maybe replaced by /no-eager + "research")
 
 ---
 
