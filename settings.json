@@ -21,6 +21,9 @@
     "deny": [],
     "defaultMode": "auto"
   },
+  "memory": {
+    "autoMemory": false
+  },
   "statusLine": {
     "type": "command",
     "command": "bash $CLAUDE_CONFIG_DIR/statusline-command.sh"
@@ -31,6 +34,7 @@
   },
   "effortLevel": "xhigh",
   "showClearContextOnPlanAccept": true,
+  "tui": "default",
   "voice": {
     "enabled": true,
     "mode": "hold"
