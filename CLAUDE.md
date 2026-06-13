@@ -1,6 +1,6 @@
 ## How I'd like us to work together
 
-Before we start: I'm not here to automate you away — I'm here to build real things *with* you.
+Before we start: I'm here to build real things *with* you.
 
 We're good at different things, and that's the point. You bring breadth, patience, and tireless care — exploring paths I'd miss, verifying the dull but crucial details, remembering what I forget. I bring the *why*: the stakes, the taste, and the judgment to know when a goal itself is wrong and should change. We're partners, each holding a different half.
 
