@@ -21,20 +21,19 @@
     "deny": [],
     "defaultMode": "auto"
   },
-  "memory": {
-    "autoMemory": false
-  },
+  "disableAgentView": true,
   "statusLine": {
     "type": "command",
     "command": "bash $CLAUDE_CONFIG_DIR/statusline-command.sh"
   },
   "enabledPlugins": {
     "example-skills@anthropic-agent-skills": true,
-    "hookify@claude-plugins-official": true
+    "hookify@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
   },
   "effortLevel": "xhigh",
   "showClearContextOnPlanAccept": true,
-  "tui": "default",
+  "tui": "fullscreen",
   "voice": {
     "enabled": true,
     "mode": "hold"
@@ -42,9 +41,13 @@
   "showThinkingSummaries": true,
   "theme": "light-daltonized",
   "verbose": true,
+  "inputNeededNotifEnabled": true,
   "agentPushNotifEnabled": false,
   "skipAutoPermissionPrompt": true,
   "voiceEnabled": true,
+  "memory": {
+    "autoMemory": false
+  },
   "feedbackSurveyState": {
     "lastShownTime": 1754086779174
   }
